@@ -1,31 +1,30 @@
-<template>
-  <h1>Events for Good</h1>
-  <div class="events">
-    <EventCard v-for="event in events" :key="event.id" :event="event" />
-  </div>
-</template>
-
 <script>
+import { useEventStore } from '../stores/eventStore'
 import EventCard from '../components/EventCard.vue'
+import { mapActions, mapState } from 'pinia'
+
 export default {
   components: {
     EventCard
   },
-  created() {
-    this.$store.dispatch('fetchEvents').catch(error => {
-      this.$router.push({
-        name: 'ErrorDisplay',
-        params: { error: error }
-      })
-    })
-  },
   computed: {
-    events() {
-      return this.$store.state.events
-    }
+    ...mapState(useEventStore, ['eventList'])
+  },
+  methods: {
+    ...mapActions(useEventStore, ['fetchEvents'])
+  },
+  created() {
+    this.fetchEvents()
   }
 }
 </script>
+
+<template>
+  <h1>Events for Good</h1>
+  <div class="events">
+    <EventCard v-for="event in eventList" :key="event.id" :event="event" />
+  </div>
+</template>
 
 <style scoped>
 .events {
