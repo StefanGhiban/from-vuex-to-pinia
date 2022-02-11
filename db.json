@@ -29,6 +29,65 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": "69d1a2b6-566b-45e4-97f1-c3a6d4e2b299",
+      "category": "nature",
+      "title": "Dog Adoption Day",
+      "description": "New description about dogs",
+      "location": "Chicago, IL",
+      "date": "2020/02/01",
+      "time": "3PM",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "8b893b99-89e8-40b0-a944-345b8c10bdae",
+      "category": "housing",
+      "title": "Title",
+      "description": "Description",
+      "location": "Location",
+      "date": "Date",
+      "time": "Title",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "f370f4fb-5a3b-4c7f-9b73-f44b1f641e73",
+      "category": "nature",
+      "title": "Title 2",
+      "description": "Description 2",
+      "location": "Location 2",
+      "date": "",
+      "time": "",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "f566b56a-9c7c-4f5c-b758-a4d270e2e249",
+      "category": "food",
+      "title": "Title 3",
+      "description": "Description 3",
+      "location": "Location 3",
+      "date": "Date 3",
+      "time": "Time 3",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "93ed1eb2-3fb3-4e6c-81f8-4603dd8dd949",
+      "category": "housing",
+      "title": "testsetset",
+      "description": "tset",
+      "location": "setset",
+      "date": "set",
+      "time": "set",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "913f3380-63d1-4a90-9c80-02d4c6c7fb19",
+      "category": "education",
+      "title": "This",
+      "description": "And",
+      "location": "That",
+      "date": "Fem",
+      "time": "Fam"
     }
   ]
 }
