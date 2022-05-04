@@ -11,6 +11,9 @@ export default {
 </script>
 
 <template>
+  <div>
+    
+  </div>
   <div id="app">
     <div id="nav">
       <router-link :to="{ name: 'EventList' }">Events</router-link> |
